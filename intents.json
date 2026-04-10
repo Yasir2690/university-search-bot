@@ -1,0 +1,84 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good afternoon", "good evening", "hi there", "hello bot", "hey assistant", "what's up"],
+      "responses": ["Hello! How can I help you with college info?", "Hi there! Ask me about admissions, fees, placements, or courses.", "Welcome! What would you like to know about our college?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you", "thanks", "thank you", "thanks for your help", "bye bye", "have a nice day"],
+      "responses": ["You're welcome! Visit our website for more details.", "Goodbye! Feel free to return anytime.", "Happy to help! Have a great day!"]
+    },
+    {
+      "tag": "admission_requirements",
+      "patterns": ["what are the admission requirements?", "how to get admission?", "eligibility criteria for admission", "what do I need for admission?", "minimum percentage for admission", "admission process", "how can I get into this college", "requirements for btech admission", "eligibility for engineering", "what marks needed for admission"],
+      "responses": ["Minimum 60% in 12th grade. Entrance exam required for engineering/medical courses.", "You need 10+2 with 55%+ marks. Specific requirements vary by department.", "Admission requires passing entrance exam and interview for most programs."]
+    },
+    {
+      "tag": "fee_structure",
+      "patterns": ["what is the fee structure?", "how much are the fees?", "tuition fee details", "cost per semester", "total fees for course", "fees for btech", "course fees", "how much to pay", "fee details", "annual fee"],
+      "responses": ["Annual fee is Rs 1,20,000 for most courses. Scholarships available for meritorious students.", "Fees vary by course. Engineering: Rs 1.5L/year, MBA: Rs 2L/year, BSc: Rs 80k/year.", "Payment can be made in installments. Hostel fees extra: Rs 60k/year."]
+    },
+    {
+      "tag": "placement_record",
+      "patterns": ["what is the placement record?", "average package?", "do students get jobs?", "placement percentage", "top recruiters", "placement statistics", "how is placement", "campus placement", "jobs after college", "recruiting companies"],
+      "responses": ["95% placement rate. Average package: Rs 8.5 LPA. Highest: Rs 45 LPA (2024).", "Top recruiters: Google, Microsoft, Amazon, Deloitte. 200+ companies visit annually.", "Placement cell provides training. 90% of eligible students placed last year."]
+    },
+    {
+      "tag": "courses_offered",
+      "patterns": ["what courses are offered?", "which programs available?", "list of courses", "departments in college", "what can I study", "courses available", "btech courses", "mba program", "computer science course", "engineering branches"],
+      "responses": ["We offer B.Tech, M.Tech, MBA, BCA, MCA, BSc, and PhD programs.", "Engineering branches: CS, IT, Mechanical, Civil, Electrical, Electronics.", "Management courses: MBA in Marketing, Finance, HR, Business Analytics."]
+    },
+    {
+      "tag": "scholarship",
+      "patterns": ["scholarship available?", "financial aid", "fee concession", "merit scholarship", "any scholarships", "how to get scholarship", "scholarship for poor students", "education loan"],
+      "responses": ["Yes! Merit scholarships up to 100% for top performers. Need-based aid available.", "Government scholarships for reserved categories. Apply through college office.", "Sports quota scholarships for national level players."]
+    },
+    {
+      "tag": "campus_facilities",
+      "patterns": ["campus facilities", "library timings", "library hours", "when does library open", "library closing time", "hostel facilities", "sports complex", "canteen", "what facilities available", "college infrastructure", "lab facilities", "wifi campus", "is there a library", "study hours"],
+      "responses": ["Library is open from 8 AM to 12 AM (midnight), 7 days a week. Digital library available 24/7.", "Hostels have gym, common room, mess with vegetarian food. Separate for boys/girls.", "Canteen offers healthy food. Medical facility available on campus from 9 AM to 5 PM.", "24/7 WiFi campus, AC classrooms, modern labs, sports complex with cricket/football ground."]
+    },
+    {
+      "tag": "exam_schedule",
+      "patterns": ["exam schedule", "exam dates", "when are exams", "mid term exams", "final exams", "exam timetable", "semester exams", "theory exams", "practical exams"],
+      "responses": ["Mid-term exams: September 15-25, 2026. Final exams: December 1-15, 2026.", "Practical exams start 1 week before theory exams. Check your department notice board.", "Exam schedule is released 1 month before exams. Download from student portal."]
+    },
+    {
+      "tag": "holidays",
+      "patterns": ["holiday list", "college holidays", "vacation dates", "when is holiday", "festival holidays", "summer break", "winter break", "college closed"],
+      "responses": ["Summer break: May 15 - July 10, 2026. Winter break: Dec 25 - Jan 5, 2027.", "Major holidays: Diwali (Nov 5-8), Holi (March 18), Independence Day (Aug 15), Republic Day (Jan 26).", "College remains closed on 2nd Saturdays and national holidays."]
+    },
+    {
+      "tag": "transport",
+      "patterns": ["transport facility", "college bus", "bus service", "how to reach college", "campus commute", "transportation", "bus route"],
+      "responses": ["College bus service available from 15+ locations. Bus pass: Rs 8,000/semester.", "College is well-connected by city buses (Route 101, 102, 105). Metro station 2 km away.", "Private vans and shared autos available from railway station and bus depot."]
+    },
+    {
+      "tag": "hostel",
+      "patterns": ["hostel fees", "hostel rules", "hostel facilities", "accommodation", "hostel room", "hostel charges", "mess fees", "hostel admission", "hostel application", "room rent", "hostel security deposit", "hostel timings", "visitor rules in hostel", "hostel curfew"],
+      "responses": ["Hostel fees: Rs 60,000 per year (twin sharing). Single room: Rs 80,000/year. Mess fees: Rs 25,000/semester.", "Hostel rules: In-time 9 PM, biometric attendance, no visitors after 8 PM, no non-veg food in rooms, maintain cleanliness.", "Hostel facilities: 24/7 WiFi, gym, common room with TV, washing machines, RO water, 24/7 security with CCTV.", "Hostel application deadline: July 15th. Limited seats on first-come basis. Medical certificate required."]
+    },
+    {
+      "tag": "sports",
+      "patterns": ["sports facilities", "sports complex", "cricket ground", "football ground", "basketball court", "volleyball court", "tennis court", "swimming pool", "gymnasium", "indoor sports", "sports quota", "sports scholarship"],
+      "responses": ["Sports facilities: Cricket ground (2), Football ground, Basketball court (3), Volleyball court (2), Tennis court, Swimming pool (50m), Gymnasium with modern equipment.", "Indoor sports: Table tennis, Badminton (4 courts), Chess, Carrom, Yoga room, Boxing ring.", "Sports quota: 5% seats reserved. National level players get full scholarship. University-level players get 50% fee waiver.", "Sports coach available: Former national players for cricket, football, basketball. Practice timings: 6-8 AM and 4-7 PM."]
+    },
+    {
+      "tag": "faculty",
+      "patterns": ["faculty information", "teachers", "professors", "teaching staff", "qualified teachers", "PhD faculty", "student to teacher ratio", "faculty experience", "visiting faculty", "faculty achievements"],
+      "responses": ["We have 250+ faculty members. 85% hold PhDs from IITs/NITs/IIITs. Student-faculty ratio: 15:1.", "Departments: Computer Science (25 faculty), Mechanical (20), Civil (18), Electrical (15), MBA (12), Sciences (30+).", "Faculty achievements: 500+ research papers published, 25 patents, 10 Best Teacher awards, collaborations with MIT, Stanford.", "Regular guest lectures by industry experts from Google, Microsoft, Amazon. Visiting faculty from IITs every semester."]
+    },
+    {
+      "tag": "alumni",
+      "patterns": ["alumni network", "alumni association", "famous alumni", "alumni success stories", "alumni meet", "alumni events", "alumni registration", "alumni benefits", "alumni portal", "alumni in google"],
+      "responses": ["Strong alumni network of 25,000+ members worldwide. Alumni working at Google, Microsoft, Amazon, Goldman Sachs, NASA.", "Alumni Association: Annual meet every December. Regional chapters in US, UK, Canada, Australia, Singapore.", "Alumni benefits: Mentorship program, referral for jobs, startup funding, networking events, library access after graduation.", "Notable alumni: Sundar (Google India Head), Priya (Microsoft Senior Director), Rajesh (CEO of TechStart)."]
+    },
+    {
+      "tag": "internship",
+      "patterns": ["internship opportunities", "summer internship", "winter internship", "paid internship", "internship stipend", "internship companies", "how to get internship", "internship placement", "industry training", "internship program"],
+      "responses": ["Internship opportunities: 90% students get internships. Summer internships (May-July), Winter internships (Dec-Jan).", "Top internship recruiters: Google, Microsoft, Amazon, Deloitte, KPMG, Infosys, TCS, Goldman Sachs, Adobe.", "Average stipend: Rs 25,000-40,000/month. Some international internships offer up to $3,000/month.", "Internship process: Apply via placement cell. Resume workshops, mock interviews, company-specific training provided.", "Mandatory internship for 3rd year students (6-8 weeks). Industry training integrated in curriculum for all branches."]
+    }
+  ]
+}
